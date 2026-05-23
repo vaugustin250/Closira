@@ -1,0 +1,144 @@
+{
+  "enquiries": [
+    {
+      "id": "enq_001",
+      "customer_name": "Sarah Mitchell",
+      "channel": "whatsapp",
+      "status": "escalated",
+      "message": "Hi, I'm very unhappy with the quote I received. It's way above what I expected and I'd like to speak to a manager about a better deal.",
+      "matched_sop": "Complaint / Issue",
+      "suggested_response": "I'm really sorry to hear you're experiencing this issue. Your concern has been flagged as high priority and a team member will reach out within 30 minutes.",
+      "escalation_reason": "Pricing complaint — customer requested manager",
+      "escalation_urgency": "high",
+      "followup_due_at": null,
+      "received_at": "2025-05-20T09:14:00Z",
+      "updated_at": "2025-05-20T09:15:32Z",
+      "ai_summary": "Customer received a quote that exceeded their expectations and is requesting a price review with a manager. Sentiment: negative. Priority: high.",
+      "timeline": [
+        { "event_type": "enquiry_created", "description": "Enquiry received via WhatsApp from Sarah Mitchell.", "created_at": "2025-05-20T09:14:00Z" },
+        { "event_type": "sop_matched", "description": "Matched SOP: 'Complaint / Issue'. Suggested response generated.", "created_at": "2025-05-20T09:14:02Z" },
+        { "event_type": "escalated", "description": "Manually escalated to human agent. Reason: Pricing complaint — customer requested manager.", "created_at": "2025-05-20T09:15:32Z" }
+      ]
+    },
+    {
+      "id": "enq_002",
+      "customer_name": "Ravi Kumar",
+      "channel": "email",
+      "status": "open",
+      "message": "Hello, I'd like to schedule a demo for your platform next Tuesday morning. What slots are available?",
+      "matched_sop": "Booking Enquiry",
+      "suggested_response": "Thank you for reaching out! We'd be happy to schedule a demo for you. Please share your preferred time and we'll confirm availability within 1 business hour.",
+      "escalation_reason": null,
+      "escalation_urgency": null,
+      "followup_due_at": null,
+      "received_at": "2025-05-20T08:45:00Z",
+      "updated_at": "2025-05-20T08:45:11Z",
+      "ai_summary": "Customer wants to book a product demo for Tuesday morning. Sentiment: positive. Priority: normal.",
+      "timeline": [
+        { "event_type": "enquiry_created", "description": "Enquiry received via Email from Ravi Kumar.", "created_at": "2025-05-20T08:45:00Z" },
+        { "event_type": "sop_matched", "description": "Matched SOP: 'Booking Enquiry'. Suggested response generated.", "created_at": "2025-05-20T08:45:11Z" }
+      ]
+    },
+    {
+      "id": "enq_003",
+      "customer_name": "Priya Sharma",
+      "channel": "whatsapp",
+      "status": "follow_up",
+      "message": "Hi! How much does your premium plan cost? I'm comparing a few platforms right now.",
+      "matched_sop": "Pricing Question",
+      "suggested_response": "Great question! Our plans start from ₹999/month for the Starter tier. I'll send you a full pricing breakdown shortly.",
+      "escalation_reason": null,
+      "escalation_urgency": null,
+      "followup_due_at": "2025-05-20T11:30:00Z",
+      "followup_message_template": "Hi Priya, just following up on your pricing enquiry! Let us know if you have any questions.",
+      "received_at": "2025-05-20T10:00:00Z",
+      "updated_at": "2025-05-20T10:02:00Z",
+      "ai_summary": "Customer is actively comparing pricing across platforms. Sentiment: neutral. Priority: medium — time-sensitive.",
+      "timeline": [
+        { "event_type": "enquiry_created", "description": "Enquiry received via WhatsApp from Priya Sharma.", "created_at": "2025-05-20T10:00:00Z" },
+        { "event_type": "sop_matched", "description": "Matched SOP: 'Pricing Question'.", "created_at": "2025-05-20T10:00:09Z" },
+        { "event_type": "followup_scheduled", "description": "Follow-up scheduled in 90 minutes.", "created_at": "2025-05-20T10:02:00Z" }
+      ]
+    },
+    {
+      "id": "enq_004",
+      "customer_name": "Arjun Nair",
+      "channel": "call",
+      "status": "escalated",
+      "message": "This is urgent! My system went down and I need emergency support right now. We're losing customers every minute!",
+      "matched_sop": "After-Hours Message",
+      "suggested_response": "We've received your urgent message. Our on-call team will respond within 15 minutes.",
+      "escalation_reason": "Critical system outage — customer losing revenue",
+      "escalation_urgency": "high",
+      "followup_due_at": null,
+      "received_at": "2025-05-20T07:22:00Z",
+      "updated_at": "2025-05-20T07:22:45Z",
+      "ai_summary": "Customer reports a production system outage impacting their business. Requires immediate escalation to technical support.",
+      "timeline": [
+        { "event_type": "enquiry_created", "description": "Enquiry received via Call from Arjun Nair.", "created_at": "2025-05-20T07:22:00Z" },
+        { "event_type": "sop_matched", "description": "Matched SOP: 'After-Hours Message'.", "created_at": "2025-05-20T07:22:10Z" },
+        { "event_type": "escalated", "description": "Critical system outage — customer losing revenue.", "created_at": "2025-05-20T07:22:45Z" }
+      ]
+    },
+    {
+      "id": "enq_005",
+      "customer_name": "Meera Iyer",
+      "channel": "email",
+      "status": "open",
+      "message": "Could you tell me more about how your platform works? I'm specifically interested in the WhatsApp integration features.",
+      "matched_sop": "General Information",
+      "suggested_response": "Thanks for your interest in Closira! We're an AI-powered customer communication platform for SMBs — handling WhatsApp, email, and phone enquiries automatically.",
+      "escalation_reason": null,
+      "escalation_urgency": null,
+      "followup_due_at": null,
+      "received_at": "2025-05-20T11:05:00Z",
+      "updated_at": "2025-05-20T11:05:08Z",
+      "ai_summary": "Customer wants to understand platform features, specifically WhatsApp integration. Good demo opportunity.",
+      "timeline": [
+        { "event_type": "enquiry_created", "description": "Enquiry received via Email from Meera Iyer.", "created_at": "2025-05-20T11:05:00Z" },
+        { "event_type": "sop_matched", "description": "Matched SOP: 'General Information'.", "created_at": "2025-05-20T11:05:08Z" }
+      ]
+    },
+    {
+      "id": "enq_006",
+      "customer_name": "Karan Mehta",
+      "channel": "call",
+      "status": "follow_up",
+      "message": "I want to book an appointment but I need it before 10am. Is that possible?",
+      "matched_sop": "Booking Enquiry",
+      "suggested_response": "Thank you for reaching out! We'd be happy to schedule a time for you.",
+      "escalation_reason": null,
+      "escalation_urgency": null,
+      "followup_due_at": "2025-05-20T14:00:00Z",
+      "followup_message_template": "Hi Karan, following up on your appointment request! We have slots available at 9am and 9:30am.",
+      "received_at": "2025-05-20T09:55:00Z",
+      "updated_at": "2025-05-20T10:00:00Z",
+      "ai_summary": "Customer needs a morning appointment slot. Follow-up required to confirm availability.",
+      "timeline": [
+        { "event_type": "enquiry_created", "description": "Enquiry received via Call from Karan Mehta.", "created_at": "2025-05-20T09:55:00Z" },
+        { "event_type": "sop_matched", "description": "Matched SOP: 'Booking Enquiry'.", "created_at": "2025-05-20T09:55:06Z" },
+        { "event_type": "followup_scheduled", "description": "Follow-up scheduled in 4 hours.", "created_at": "2025-05-20T10:00:00Z" }
+      ]
+    },
+    {
+      "id": "enq_007",
+      "customer_name": "Divya Nair",
+      "channel": "whatsapp",
+      "status": "escalated",
+      "message": "I've been waiting for 3 days for a response and no one has gotten back to me. This is completely unacceptable.",
+      "matched_sop": "Complaint / Issue",
+      "suggested_response": "I'm really sorry to hear you're experiencing this. Your concern has been flagged as high priority.",
+      "escalation_reason": "Customer has been waiting 3 days with no response — SLA breach",
+      "escalation_urgency": "medium",
+      "followup_due_at": null,
+      "received_at": "2025-05-20T08:30:00Z",
+      "updated_at": "2025-05-20T08:31:00Z",
+      "ai_summary": "SLA breach — customer has not received a response in 3 days. Sentiment: very negative.",
+      "timeline": [
+        { "event_type": "enquiry_created", "description": "Enquiry received via WhatsApp from Divya Nair.", "created_at": "2025-05-20T08:30:00Z" },
+        { "event_type": "sop_matched", "description": "Matched SOP: 'Complaint / Issue'.", "created_at": "2025-05-20T08:30:08Z" },
+        { "event_type": "escalated", "description": "SLA breach escalation.", "created_at": "2025-05-20T08:31:00Z" }
+      ]
+    }
+  ]
+}

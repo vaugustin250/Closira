@@ -1,0 +1,58 @@
+{
+  "stats": {
+    "total_leads_today": 24,
+    "missed_enquiries": 3,
+    "open_escalations": 3,
+    "followups_due": 2,
+    "response_rate": 87,
+    "avg_response_time_minutes": 4,
+    "resolved_today": 18
+  },
+  "recent_activity": [
+    {
+      "id": "act_001",
+      "enquiry_id": "enq_004",
+      "customer_name": "Arjun Nair",
+      "channel": "call",
+      "event": "Escalated",
+      "description": "Critical system outage reported",
+      "time": "2025-05-20T07:22:45Z"
+    },
+    {
+      "id": "act_002",
+      "enquiry_id": "enq_005",
+      "customer_name": "Meera Iyer",
+      "channel": "email",
+      "event": "New Lead",
+      "description": "WhatsApp integration inquiry",
+      "time": "2025-05-20T11:05:00Z"
+    },
+    {
+      "id": "act_003",
+      "enquiry_id": "enq_003",
+      "customer_name": "Priya Sharma",
+      "channel": "whatsapp",
+      "event": "Follow-up Scheduled",
+      "description": "Pricing enquiry — follow-up in 90 min",
+      "time": "2025-05-20T10:02:00Z"
+    },
+    {
+      "id": "act_004",
+      "enquiry_id": "enq_002",
+      "customer_name": "Ravi Kumar",
+      "channel": "email",
+      "event": "SOP Matched",
+      "description": "Booking enquiry resolved",
+      "time": "2025-05-20T08:45:11Z"
+    },
+    {
+      "id": "act_005",
+      "enquiry_id": "enq_001",
+      "customer_name": "Sarah Mitchell",
+      "channel": "whatsapp",
+      "event": "Escalated",
+      "description": "Pricing complaint — manager requested",
+      "time": "2025-05-20T09:15:32Z"
+    }
+  ]
+}
